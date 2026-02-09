@@ -1,0 +1,15 @@
+{
+  "loginValido": {
+    "email": "testecy@gmail.com",
+    "password": "cy123",
+    "username": "Teste Cypress"
+  },
+  "loginInvalido": {
+    "emailInvalido": "emailinvalido@example.com",
+    "senhaInvalida": "senhaerrada123",
+    "emailVazio": "",
+    "senhaVazia": "",
+    "emailIncorreto": "emailsemarrobaexample.com",
+    "mensagemErro": "Your email or password is incorrect!"
+  }
+}

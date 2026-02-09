@@ -1,0 +1,32 @@
+{
+  "name": "cypress--automacao-validacao-login",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes com Cypress e Gherkin para validação de login",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:headed": "cypress run --headed"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "testing",
+    "gherkin",
+    "cucumber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step_definitions/**/*.js",
+    "filterSpecs": true,
+    "omitFiltered": true
+  }
+}
